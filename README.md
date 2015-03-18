@@ -1,14 +1,16 @@
-Test Spring REST 
 
-* Funcionalidad
-* 
+#TestSpring REST
+
+
+<b>Funcionalidad</b>
+
 La aplicación permite invovar un servicio REST (HTTP/JSON)con el objetivo de testear una implementacion Spring REST + Hibernate
 
 Permite consultar una lista de items creados en una base de datos en memoria HSQLDB
 Los items se crean a partir de un fichero import.sql en el momento de arrancar la aplicación
 
 
-*Modo de uso:
+<b>Modo de uso:</b>
 
 
 Para ejecutar la aplicación usando Spring Boot
