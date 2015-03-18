@@ -1,5 +1,5 @@
 
-#TestSpring REST
+#Test Spring REST + Hibernate
 
 
 <b>Funcionalidad</b>
@@ -15,11 +15,11 @@ Los items se crean a partir de un fichero import.sql en el momento de arrancar l
 
 Para ejecutar la aplicación usando Spring Boot
 
-<i>mvn clean spring-boot:run</i>
+<code>mvn clean spring-boot:run</code>
 
 Para ejecutar test (JUnit4)
 
-mvn test
+<code>mvn test</code>
 
 Los test consisten en 
 1) verificar que se consultan todos los items
@@ -29,9 +29,10 @@ Los test consisten en
 
 Tambien se puede invocar directamente
 
-Ejemplo:
+<u>Ejemplo:</u>
 
 http:// localhost:8080/item/list
+
 http:// localhost:8080/item/list?type=A
 
 
