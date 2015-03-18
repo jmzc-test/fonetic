@@ -4,7 +4,8 @@
 
 <b>Funcionalidad</b>
 
-La aplicación permite invocar un servicio REST (HTTP/JSON)con el objetivo de testear una implementacion Spring REST + Hibernate
+La aplicación permite invocar un servicio REST (HTTP/JSON)
+La implementacion es Spring REST + Hibernate, y emplea Spring Boot para su integración 
 
 Permite consultar una lista de items creados en una base de datos en memoria HSQLDB
 Los items se crean a partir de un fichero import.sql en el momento de arrancar la aplicación
